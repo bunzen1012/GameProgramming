@@ -15,7 +15,7 @@ C:/Users/ABC/Documents/GitHub/GameProgramming/GamePrograming
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-62912
+63657
 Successfully changed project path to: C:/Users/ABC/Documents/GitHub/GameProgramming/GamePrograming
 C:/Users/ABC/Documents/GitHub/GameProgramming/GamePrograming
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/ABC/Documents/GitHub/GameProgramming/GamePrograming
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 150.17 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 154.52 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,398 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008746 seconds.
+Registered in 0.009870 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 159.89 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 140.19 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.829 seconds
+- Completed reload, in  0.820 seconds
 Domain Reload Profiling:
-	ReloadAssembly (830ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (820ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (607ms)
-			LoadAssemblies (84ms)
+		EndReloadAssembly (570ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (123ms)
+			SetupTypeCache (130ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (391ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (352ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (53ms)
+				InitializePlatformSupportModulesInManaged (47ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (160ms)
+				RefreshPlugins (140ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (121ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011817 seconds.
+Registered in 0.011927 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\ABC\Documents\GitHub\GameProgramming\GamePrograming\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\ABC\Documents\GitHub\GameProgramming\GamePrograming\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 167.20 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 146.96 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.777 seconds
+- Completed reload, in  1.645 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1778ms)
-		BeginReloadAssembly (144ms)
+	ReloadAssembly (1646ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1482ms)
-			LoadAssemblies (119ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1378ms)
+			LoadAssemblies (117ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (355ms)
+			SetupTypeCache (342ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (870ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (786ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (167ms)
-				BeforeProcessingInitializeOnLoad (161ms)
-				ProcessInitializeOnLoadAttributes (410ms)
-				ProcessInitializeOnLoadMethodAttributes (100ms)
+				RefreshPlugins (147ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (370ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
 				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.16 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6294 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 124 unused Assets / (12.6 MB). Loaded Objects now: 6683.
-Memory consumption went from 296.1 MB to 283.5 MB.
-Total: 24.980800 ms (FindLiveObjects: 0.968000 ms CreateObjectMapping: 0.891400 ms MarkObjects: 12.630200 ms  DeleteObjects: 10.489000 ms)
+Unloading 6239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (2.0 MB). Loaded Objects now: 6691.
+Memory consumption went from 263.0 MB to 261.0 MB.
+Total: 5.205700 ms (FindLiveObjects: 0.594100 ms CreateObjectMapping: 0.164300 ms MarkObjects: 3.810200 ms  DeleteObjects: 0.635700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011225 seconds.
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <523a924aba464755b1747653b71e5189>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <523a924aba464755b1747653b71e5189>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <523a924aba464755b1747653b71e5189>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <523a924aba464755b1747653b71e5189>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ABC\Documents\GitHub\GameProgramming\GamePrograming\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ABC\Documents\GitHub\GameProgramming\GamePrograming\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <523a924aba464755b1747653b71e5189>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <523a924aba464755b1747653b71e5189>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.459 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1459ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1173ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (610ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (319ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6008 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 111 unused Assets / (2.0 MB). Loaded Objects now: 6635.
+Memory consumption went from 248.1 MB to 246.1 MB.
+Total: 5.492200 ms (FindLiveObjects: 0.667900 ms CreateObjectMapping: 0.228000 ms MarkObjects: 3.853000 ms  DeleteObjects: 0.741800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017767 seconds.
+Assembly with name 'com.unity.animations.springbone.editor' already exists (Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Packages/UnityChanSpringBone-release-1.1/Editor/com.unity.animations.springbone.editor.asmdef)
+Assembly with name 'com.unity.animations.springbone.editor' already exists (Assets/UnityChanSSU_URP-release-1.0.5/UnityChanSSU_URP-release-1.0.5/Packages/UnityChanSpringBone-release-1.1/Editor/com.unity.animations.springbone.editor.asmdef)
+Assembly with name 'com.unity.animations.springbone' already exists (Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Packages/UnityChanSpringBone-release-1.1/Runtime/com.unity.animations.springbone.asmdef)
+Assembly with name 'com.unity.animations.springbone' already exists (Assets/UnityChanSSU_URP-release-1.0.5/UnityChanSSU_URP-release-1.0.5/Packages/UnityChanSpringBone-release-1.1/Runtime/com.unity.animations.springbone.asmdef)
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <523a924aba464755b1747653b71e5189>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <523a924aba464755b1747653b71e5189>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+Assembly with name 'com.unity.animations.springbone.editor' already exists (Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Packages/UnityChanSpringBone-release-1.1/Editor/com.unity.animations.springbone.editor.asmdef)
+Assembly with name 'com.unity.animations.springbone.editor' already exists (Assets/UnityChanSSU_URP-release-1.0.5/UnityChanSSU_URP-release-1.0.5/Packages/UnityChanSpringBone-release-1.1/Editor/com.unity.animations.springbone.editor.asmdef)
+Assembly with name 'com.unity.animations.springbone' already exists (Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Packages/UnityChanSpringBone-release-1.1/Runtime/com.unity.animations.springbone.asmdef)
+Assembly with name 'com.unity.animations.springbone' already exists (Assets/UnityChanSSU_URP-release-1.0.5/UnityChanSSU_URP-release-1.0.5/Packages/UnityChanSpringBone-release-1.1/Runtime/com.unity.animations.springbone.asmdef)
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <523a924aba464755b1747653b71e5189>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <523a924aba464755b1747653b71e5189>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ABC\Documents\GitHub\GameProgramming\GamePrograming\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ABC\Documents\GitHub\GameProgramming\GamePrograming\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'com.unity.animations.springbone.editor' already exists (Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Packages/UnityChanSpringBone-release-1.1/Editor/com.unity.animations.springbone.editor.asmdef)
+Assembly with name 'com.unity.animations.springbone.editor' already exists (Assets/UnityChanSSU_URP-release-1.0.5/UnityChanSSU_URP-release-1.0.5/Packages/UnityChanSpringBone-release-1.1/Editor/com.unity.animations.springbone.editor.asmdef)
+Assembly with name 'com.unity.animations.springbone' already exists (Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Packages/UnityChanSpringBone-release-1.1/Runtime/com.unity.animations.springbone.asmdef)
+Assembly with name 'com.unity.animations.springbone' already exists (Assets/UnityChanSSU_URP-release-1.0.5/UnityChanSSU_URP-release-1.0.5/Packages/UnityChanSpringBone-release-1.1/Runtime/com.unity.animations.springbone.asmdef)
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <523a924aba464755b1747653b71e5189>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <523a924aba464755b1747653b71e5189>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <523a924aba464755b1747653b71e5189>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.406 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1407ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1117ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (574ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (2.1 MB). Loaded Objects now: 6698.
+Memory consumption went from 250.1 MB to 247.9 MB.
+Total: 4.544900 ms (FindLiveObjects: 0.477400 ms CreateObjectMapping: 0.159800 ms MarkObjects: 3.269900 ms  DeleteObjects: 0.636300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,64 +468,196 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 901727.023285 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Models/Parts/EyeLight_02_R.fbx
-  artifactKey: Guid(9c92d641718bd7944bc1c13062d8a562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Models/Parts/EyeLight_02_R.fbx using Guid(9c92d641718bd7944bc1c13062d8a562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9e5a5810f6ba7ec18215277338ebcc') in 0.467000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Models/rigProp/RigProp_R_Net_00_dummy.FBX
-  artifactKey: Guid(8373282ff8d105641bcaf7860943b400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Models/rigProp/RigProp_R_Net_00_dummy.FBX using Guid(8373282ff8d105641bcaf7860943b400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075422902cf9c6b5cc1c03fa94718404') in 0.140716 seconds 
+  Time since last request: 903730.688432 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/UCSSU_Boots.mat
+  artifactKey: Guid(fc5a459ce5606e74b9b424776df2581b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/UCSSU_Boots.mat using Guid(fc5a459ce5606e74b9b424776df2581b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de0de378243428c13f02c9cf06a5995') in 2.967180 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Models/Parts/Hair_00_Base.fbx
-  artifactKey: Guid(2e82b72d6ee6004469434238fcc4887a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Models/Parts/Hair_00_Base.fbx using Guid(2e82b72d6ee6004469434238fcc4887a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bb5ea38f0f0d49b0c35b6bf7d23042') in 0.049226 seconds 
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/UCSSU_Hair.mat
+  artifactKey: Guid(8e952b47645d4c74287692c0c69b68a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/UCSSU_Hair.mat using Guid(8e952b47645d4c74287692c0c69b68a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bab7b5a818e0bb1d9280168728c0f7') in 0.080958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/UCSSU_HoodieLED.mat
+  artifactKey: Guid(fdb94abbd2b57a848a7c6be39952a5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/UCSSU_HoodieLED.mat using Guid(fdb94abbd2b57a848a7c6be39952a5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9efbc01cdd9d84fc6355e60b8a4b78a') in 0.516292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/UCSSU_Shirt.mat
+  artifactKey: Guid(50fbd669bbbd7484199db8db6f1fbb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/UCSSU_Shirt.mat using Guid(50fbd669bbbd7484199db8db6f1fbb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb6d86b5d00c1c27d102c8a5695bc36') in 0.058166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/UCSSU_Headphone.mat
+  artifactKey: Guid(32127a2f7510cbc4f8c2653933a05754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/UCSSU_Headphone.mat using Guid(32127a2f7510cbc4f8c2653933a05754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe06cd82726274ba67442773d281be9') in 0.039073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/UCSSU_Hoodie.mat
+  artifactKey: Guid(0a925968bfad1ff48a5574ee0ce419d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/UCSSU_Hoodie.mat using Guid(0a925968bfad1ff48a5574ee0ce419d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bae7658a0f4d29c8b4f5b25f846342') in 2.364293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.605894 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Shirt2a3.psd
+  artifactKey: Guid(221f71f0fe78a73468179c8e07191285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Shirt2a3.psd using Guid(221f71f0fe78a73468179c8e07191285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb0d11a31bc438f568af0f0fcf65049') in 0.038785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Shirt2a.psd
+  artifactKey: Guid(2a8dd049da2b7ea4f91fa650087b597a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Shirt2a.psd using Guid(2a8dd049da2b7ea4f91fa650087b597a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c973bdb5e497f107952830e4fc0971') in 0.030219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Shader/Textures/Gradation_R01.psd
+  artifactKey: Guid(2348abd02c491154e8b4b0c26781c275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Shader/Textures/Gradation_R01.psd using Guid(2348abd02c491154e8b4b0c26781c275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41b9003de7a152b61360c041d02124d') in 0.021678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.111171 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_boots_1st.psd
+  artifactKey: Guid(7372e6ff3d6375c4581783443ad74cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_boots_1st.psd using Guid(7372e6ff3d6375c4581783443ad74cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01ca07e94543f56efb73b51ec207718') in 0.022281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_boots_2nd.psd
+  artifactKey: Guid(b4ddb6bc781a5d04aa5c279a07b04706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_boots_2nd.psd using Guid(b4ddb6bc781a5d04aa5c279a07b04706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2d74fcb6294e1941075714c2aa5462') in 0.017300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.250531 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Shader/Textures/Gradation_A02.psd
+  artifactKey: Guid(0109f5cb650745f4ab86928a140a6150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Shader/Textures/Gradation_A02.psd using Guid(0109f5cb650745f4ab86928a140a6150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfbef5bfe694a9be5f392e412b06546') in 0.044694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.135540 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Body_2nd.psd
+  artifactKey: Guid(917e15dec99314844ba6bd2180b98f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Body_2nd.psd using Guid(917e15dec99314844ba6bd2180b98f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391e5c1db678ecd58d343ac70e572092') in 0.020635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Body_Spec.psd
+  artifactKey: Guid(8769a56fbfe2312408026050845e2e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Body_Spec.psd using Guid(8769a56fbfe2312408026050845e2e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0069c3474a5c3a3b5681c2a2a02a0c55') in 0.019359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Eyes_1st.psd
+  artifactKey: Guid(0cf915c30b550ac49a183efb59e11a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Eyes_1st.psd using Guid(0cf915c30b550ac49a183efb59e11a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99353df7be074bace7f2fe3ee37f9a1') in 0.022722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Head_coat.png
+  artifactKey: Guid(acbe989827744b942b5a96e2dfa4930c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Head_coat.png using Guid(acbe989827744b942b5a96e2dfa4930c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb44a303f3f66f9604fde2eb21db979') in 0.068358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Hoodie_Base.psd
+  artifactKey: Guid(c45967d6dc54bb342993e4b0dc59fd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Hoodie_Base.psd using Guid(c45967d6dc54bb342993e4b0dc59fd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fe7a4ec05b71d003b6fd10d4b5fe1b') in 0.023295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Hoodie_RimMask.psd
+  artifactKey: Guid(00937596683352f468c46443fdc63762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Hoodie_RimMask.psd using Guid(00937596683352f468c46443fdc63762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9e5e2e7f082ce1182e4d0c4b7a610c') in 0.027820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Eyes_Spec.png
+  artifactKey: Guid(d411b12929a18574e956e731e68a244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Eyes_Spec.png using Guid(d411b12929a18574e956e731e68a244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea02ee5a0fed8d9f130ab71ec8933100') in 0.023018 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Models/Parts/Accessory_00.fbx
-  artifactKey: Guid(f6a92ea2a0c495f458a00ff908e394e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Models/Parts/Accessory_00.fbx using Guid(f6a92ea2a0c495f458a00ff908e394e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23585bd125fd05578d620d5324e40ff2') in 0.040422 seconds 
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Head_coat.psd
+  artifactKey: Guid(00656fcb81d05e04caed6d41d187d8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Head_coat.psd using Guid(00656fcb81d05e04caed6d41d187d8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb85ad11308f8c541bd7675b2ff5a63') in 0.018213 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Models/Parts/Accessory_02.fbx
-  artifactKey: Guid(61aec2bbd941a4c45831b3509a290539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Models/Parts/Accessory_02.fbx using Guid(61aec2bbd941a4c45831b3509a290539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b249cc9f95886612a03249c166a567d8') in 0.046786 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Headphone_Base.psd
+  artifactKey: Guid(107e23fefd98bf44cab648b36afe788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Headphone_Base.psd using Guid(107e23fefd98bf44cab648b36afe788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14aad8204a59558ccf92c7a412ed928d') in 0.019561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Hoodie_2nd.psd
+  artifactKey: Guid(4056dcad08f325a4b8955b6aaea93971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Hoodie_2nd.psd using Guid(4056dcad08f325a4b8955b6aaea93971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f4baef1abb8545ced2b7b07496d1d9') in 0.027113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Headphone_NRM.png
+  artifactKey: Guid(56315b274fec8ec4e8b0d1a66af7ed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Headphone_NRM.png using Guid(56315b274fec8ec4e8b0d1a66af7ed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0adfba0a859ac5a95d866a2db21197b') in 0.025760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Headphone_1st.psd
+  artifactKey: Guid(0255a699949f34740b9682adff3c4060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Headphone_1st.psd using Guid(0255a699949f34740b9682adff3c4060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70650c157add87c672bcd6c5b971dad2') in 0.021710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Head_SGM.psd
+  artifactKey: Guid(f26a8cc0ac6c4dc4eb3ada45506b69b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Head_SGM.psd using Guid(f26a8cc0ac6c4dc4eb3ada45506b69b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639c8b7a3fcefea8f4fb9ca7ba046e41') in 0.018802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Hoodie_1st.psd
+  artifactKey: Guid(49b826bffc62c6144904c9014ebe8832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Hoodie_1st.psd using Guid(49b826bffc62c6144904c9014ebe8832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0edf4edd4a7a23d36794f7c5bca8c2') in 0.022060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Head_2nd.psd
+  artifactKey: Guid(05832d1edf0c90240bdd7761bad4830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Head_2nd.psd using Guid(05832d1edf0c90240bdd7761bad4830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00d8da82825350d4b455d73d6a960c2') in 0.020699 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Models/Parts/Costume_02.fbx
-  artifactKey: Guid(dd4802cc7972ecb4699ed0b29916793f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Models/Parts/Costume_02.fbx using Guid(dd4802cc7972ecb4699ed0b29916793f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321f1805ac4323ed2259b94005f986ad') in 0.069585 seconds 
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Hair_2nd.psd
+  artifactKey: Guid(b88ec296652c25f4dabceb002e8816f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Hair_2nd.psd using Guid(b88ec296652c25f4dabceb002e8816f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7797076696155115183368728c3a4ca') in 0.031255 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Models/Parts/Hair_02_Front.fbx
-  artifactKey: Guid(cade0cf166c5da34681e0c24647b45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Models/Parts/Hair_02_Front.fbx using Guid(cade0cf166c5da34681e0c24647b45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5027ba0a2a90cd98854a7207116d580') in 0.047647 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Head_1st.psd
+  artifactKey: Guid(4b3fbcd7d01380f4fabea7c5c10a9adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Head_1st.psd using Guid(4b3fbcd7d01380f4fabea7c5c10a9adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c769eadfcce2ce2410f3e8a77fd2276') in 0.019374 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Models/Parts/Eye_02_R.fbx
-  artifactKey: Guid(bd27e7964625c84449f2ac3e445385f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Models/Parts/Eye_02_R.fbx using Guid(bd27e7964625c84449f2ac3e445385f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcfa6833981382015178292604c569f') in 0.046097 seconds 
+  Time since last request: 38.832658 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/Back/md8_parkar_BKK_RM.psd
+  artifactKey: Guid(293218142113f2748a9f100ad1bd81ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/Back/md8_parkar_BKK_RM.psd using Guid(293218142113f2748a9f100ad1bd81ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29d6e8082abae1a480ed699e4ca7ba1') in 0.030614 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.938567 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_02 SD Unity-Chan WGS.prefab
-  artifactKey: Guid(485d662c63590f74dac20be0cf684019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_02 SD Unity-Chan WGS.prefab using Guid(485d662c63590f74dac20be0cf684019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7952a09b0f6e1cc7d6ec090353a1794') in 0.082378 seconds 
+  Time since last request: 143.069608 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/UCSSU_Eyes.mat
+  artifactKey: Guid(e212f5c6b11e7c24cbdd6f919c07d70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/UCSSU_Eyes.mat using Guid(e212f5c6b11e7c24cbdd6f919c07d70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd22ee5a6be43be2346d98983c1f9ea3') in 0.032133 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_02 SD Unity-Chan WTD.prefab
-  artifactKey: Guid(9567168e85118da4a9e668d51492efb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_02 SD Unity-Chan WTD.prefab using Guid(9567168e85118da4a9e668d51492efb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213ece77904aa99ec76adc64ec3c4ffd') in 0.086935 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/UCSSU_HoodieLED.mat
+  artifactKey: Guid(fdb94abbd2b57a848a7c6be39952a5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/UCSSU_HoodieLED.mat using Guid(fdb94abbd2b57a848a7c6be39952a5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03874fb226d5b10e1e1f84c5bf9e078') in 1.270571 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
