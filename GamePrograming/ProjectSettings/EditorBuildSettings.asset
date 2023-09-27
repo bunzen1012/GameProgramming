@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/201910285_Kimsunmin.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/LoseScreen.unity
+    guid: 7c13191e575fd6345ba5db3ae5435d14
+  - enabled: 1
+    path: Assets/Scenes/WinScreen.unity
+    guid: 7f0767b15cd464847b99dc6d833bd1d3
   m_configObjects: {}

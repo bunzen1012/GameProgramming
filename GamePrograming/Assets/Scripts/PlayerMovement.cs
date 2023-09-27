@@ -7,8 +7,10 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed;
     public float rotationSpeed;
+
     private Vector2 movementValue;
     private float lookValue;
+    private Rigidbody rb;
 
 
     // Start is called before the first frame update
@@ -16,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+
+        rb = GetComponent<Rigidbody>();
     }
 
     public void OnMove(InputValue value)
@@ -43,8 +47,13 @@ public class PlayerMovement : MonoBehaviour
         //if (Input.GetKey(KeyCode.A)) { transform.Translate(-speed * Time.deltaTime, 0, 0); }
         //if (Input.GetKey(KeyCode.D)) { transform.Translate(speed * Time.deltaTime, 0, 0); }
 
-        transform.Translate(movementValue.x * Time.deltaTime, 0, movementValue.y * Time.deltaTime);
+        //transform.Translate(movementValue.x * Time.deltaTime, 0, movementValue.y * Time.deltaTime);
 
-        transform.Rotate(0, lookValue * Time.deltaTime, 0);
+        //transform.Rotate(0, lookValue * Time.deltaTime, 0);
+
+        rb.AddRelativeForce(movementValue.x * Time.deltaTime, 0, movementValue.y * Time.deltaTime, ForceMode.Impulse);
+        //교수님이거 forcemode.impulse 없으면 안움직이던데 교재 자료에는 안나와있습니다!
+        
+        rb.AddRelativeTorque(0, lookValue * Time.deltaTime, 0);
     }
 }

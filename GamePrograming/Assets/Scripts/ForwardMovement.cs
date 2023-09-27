@@ -5,6 +5,8 @@ using UnityEngine;
 public class ForwardMovement : MonoBehaviour
 {
     public float bulletspeed;
+
+
     // Start is called before the first frame update
     void Start()
     {
