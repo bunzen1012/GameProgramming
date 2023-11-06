@@ -12,6 +12,9 @@ public class PlayerMovement : MonoBehaviour
     private float lookValue;
     private Rigidbody rb;
 
+    public float jumpForce;
+    private bool canJump = true;
+
 
     // Start is called before the first frame update
     private void Awake()
@@ -29,6 +32,15 @@ public class PlayerMovement : MonoBehaviour
     public void OnLook(InputValue value)
     {
         lookValue = value.Get<Vector2>().x * rotationSpeed;
+    }
+
+    public void OnJump()
+    {
+        if (canJump)
+        {
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            canJump = false;
+        }
     }
 
     void Start()
@@ -55,5 +67,10 @@ public class PlayerMovement : MonoBehaviour
         //교수님이거 forcemode.impulse 없으면 안움직이던데 교재 자료에는 안나와있습니다!
         
         rb.AddRelativeTorque(0, lookValue * Time.deltaTime, 0);
+
+        if (rb.velocity.y == 0)
+        {
+            canJump = true;
+        }
     }
 }
