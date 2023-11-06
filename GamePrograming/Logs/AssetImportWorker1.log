@@ -15,7 +15,7 @@ C:/Users/ABC/Documents/GitHub/GameProgramming/GamePrograming
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58650
+50809
 Successfully changed project path to: C:/Users/ABC/Documents/GitHub/GameProgramming/GamePrograming
 C:/Users/ABC/Documents/GitHub/GameProgramming/GamePrograming
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/ABC/Documents/GitHub/GameProgramming/GamePrograming
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23868] Host "[IP] 59.5.135.225 [Port] 0 [Flags] 2 [Guid] 853899843 [EditorId] 853899843 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KJB7P4J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7748] Host "[IP] 220.116.195.205 [Port] 0 [Flags] 2 [Guid] 775973476 [EditorId] 775973476 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KJB7P4J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23868] Host "[IP] 59.5.135.225 [Port] 0 [Flags] 2 [Guid] 853899843 [EditorId] 853899843 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KJB7P4J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7748] Host "[IP] 220.116.195.205 [Port] 0 [Flags] 2 [Guid] 775973476 [EditorId] 775973476 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KJB7P4J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 21.09 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 20.89 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010608 seconds.
-- Loaded All Assemblies, in  0.419 seconds
+Registered in 0.013384 seconds.
+- Loaded All Assemblies, in  0.434 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.280 seconds
-Domain Reload Profiling: 695ms
-	BeginReloadAssembly (129ms)
+- Finished resetting the current domain, in  0.304 seconds
+Domain Reload Profiling: 734ms
+	BeginReloadAssembly (136ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (79ms)
-	LoadAllAssembliesAndSetupDomain (153ms)
-		LoadAssemblies (124ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (132ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (136ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (141ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (281ms)
+	FinalizeReload (304ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (219ms)
+		SetupLoadedEditorAssemblies (239ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (144ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,74 +116,52 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\ABC\Documents\GitHub\GameProgramming\GamePrograming\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\ABC\Documents\GitHub\GameProgramming\GamePrograming\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.909 seconds
-Refreshing native plugins compatible for Editor in 8.61 ms, found 6 plugins.
+- Loaded All Assemblies, in  0.943 seconds
+Refreshing native plugins compatible for Editor in 8.59 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.836 seconds
-Domain Reload Profiling: 1738ms
-	BeginReloadAssembly (171ms)
+- Finished resetting the current domain, in  0.901 seconds
+Domain Reload Profiling: 1833ms
+	BeginReloadAssembly (189ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (39ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (46ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (625ms)
-		LoadAssemblies (456ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (626ms)
+		LoadAssemblies (446ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (271ms)
-			TypeCache.Refresh (219ms)
-				TypeCache.ScanAssembly (201ms)
-			ScanForSourceGeneratedMonoScriptInfo (33ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (836ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (236ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (902ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (628ms)
+		SetupLoadedEditorAssemblies (674ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (417ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (449ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
 			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 12.19 ms, found 6 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 9.07 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6240 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 109 unused Assets / (1.7 MB). Loaded Objects now: 6700.
-Memory consumption went from 258.2 MB to 256.5 MB.
-Total: 5.658700 ms (FindLiveObjects: 0.611000 ms CreateObjectMapping: 0.226700 ms MarkObjects: 4.192600 ms  DeleteObjects: 0.627100 ms)
+Memory consumption went from 258.0 MB to 256.3 MB.
+Total: 4.639800 ms (FindLiveObjects: 0.521500 ms CreateObjectMapping: 0.163300 ms MarkObjects: 3.434300 ms  DeleteObjects: 0.519300 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 8.79 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (1.6 MB). Loaded Objects now: 6700.
-Memory consumption went from 126.2 MB to 124.6 MB.
-Total: 4.545500 ms (FindLiveObjects: 0.539700 ms CreateObjectMapping: 0.221700 ms MarkObjects: 3.385200 ms  DeleteObjects: 0.398000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -198,66 +176,199 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\ABC\Documents\GitHub\GameProgramming\GamePrograming\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\ABC\Documents\GitHub\GameProgramming\GamePrograming\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.576 seconds
-Refreshing native plugins compatible for Editor in 9.17 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.597 seconds
-Domain Reload Profiling: 2165ms
-	BeginReloadAssembly (191ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (283ms)
-		LoadAssemblies (359ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1597ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (555ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (105ms)
-			ProcessInitializeOnLoadAttributes (355ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 8.83 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6032 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (1.7 MB). Loaded Objects now: 6716.
-Memory consumption went from 219.1 MB to 217.5 MB.
-Total: 4.280700 ms (FindLiveObjects: 0.527000 ms CreateObjectMapping: 0.162400 ms MarkObjects: 3.156800 ms  DeleteObjects: 0.433300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 599091.919312 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/License/UCL2.0/License Logo/Others/png/Dark_Silhouette.png
+  artifactKey: Guid(2b7f1628e822a7d4ab493175c7a0ff3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/License/UCL2.0/License Logo/Others/png/Dark_Silhouette.png using Guid(2b7f1628e822a7d4ab493175c7a0ff3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96dfe0d05697ace6797fdb2d1d620a18') in 0.018504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG Monster DUO PBR Polyart/Textures/Metallic-Smoothness.png
+  artifactKey: Guid(24282800d76b4861b333f50cbcbd93d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster DUO PBR Polyart/Textures/Metallic-Smoothness.png using Guid(24282800d76b4861b333f50cbcbd93d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c29096351d596083b0a66eb27b5e71') in 0.004503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RTS_Scifi_game_assets/Models/Vehicle/Vehicle_v1/Source/Weapon/Laser_tower_v1/Laser_tower_v1_AO.tga
+  artifactKey: Guid(d3378daa374ab0f42acf5374790e3a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS_Scifi_game_assets/Models/Vehicle/Vehicle_v1/Source/Weapon/Laser_tower_v1/Laser_tower_v1_AO.tga using Guid(d3378daa374ab0f42acf5374790e3a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e413a8c46535dc26a87554de891ec26e') in 0.002428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Packages/UnityChanSpringBone-release-1.1/Editor/GUI/Icons/SpringPanelIcon.tga
+  artifactKey: Guid(66b72b111a270ab4eab2f03fe2324a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Packages/UnityChanSpringBone-release-1.1/Editor/GUI/Icons/SpringPanelIcon.tga using Guid(66b72b111a270ab4eab2f03fe2324a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1406675dd4b0d7eef554d7135418894e') in 0.002570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/grass.jpg
+  artifactKey: Guid(170ad32dfbdfc5344b6dab79ec408756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/grass.jpg using Guid(170ad32dfbdfc5344b6dab79ec408756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb237267ea32c8ee53db32456b2530d') in 0.002048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Packages/UnityChanSpringBone-release-1.1/Editor/GUI/Icons/NewDocumentHS.png
+  artifactKey: Guid(fe4ab395022ab144d93eeaeb8d424a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Packages/UnityChanSpringBone-release-1.1/Editor/GUI/Icons/NewDocumentHS.png using Guid(fe4ab395022ab144d93eeaeb8d424a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e18c53b4fb518f15043b9773b3c4baa') in 0.002530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RTS_Scifi_game_assets/Models/Structures/Structure_v1/Source/Structure_v1_orange.tga
+  artifactKey: Guid(c36a82c9c29fc094c8489d35c619467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS_Scifi_game_assets/Models/Structures/Structure_v1/Source/Structure_v1_orange.tga using Guid(c36a82c9c29fc094c8489d35c619467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c66aee9182a01eb1f87f8ec1bbbde2') in 0.009026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RTS_Scifi_game_assets/Models/Turrets/Source/Turret_v1_EM.tga
+  artifactKey: Guid(728f612f5132c1b419932ee160442ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS_Scifi_game_assets/Models/Turrets/Source/Turret_v1_EM.tga using Guid(728f612f5132c1b419932ee160442ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dce3072a1015cc4fdcf274f0ba77e8f') in 0.005205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/RTS_Scifi_game_assets/VFX/Weapons/Plasma/Plasma_v1/Source/Plasma_bullet_v1.tga
+  artifactKey: Guid(905f0b421d9e7cd448ca4f2e1b0a0c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS_Scifi_game_assets/VFX/Weapons/Plasma/Plasma_v1/Source/Plasma_bullet_v1.tga using Guid(905f0b421d9e7cd448ca4f2e1b0a0c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b67ec7d03ae65724eb97c3b8b553679') in 0.003854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Packages/UnityChanSpringBone-release-1.1/Editor/GUI/Icons/SpringIcon.tga
+  artifactKey: Guid(40a23ed4a65348b4ab0dd5496a7d9d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Packages/UnityChanSpringBone-release-1.1/Editor/GUI/Icons/SpringIcon.tga using Guid(40a23ed4a65348b4ab0dd5496a7d9d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99236d1981b5516e2a30a3df1a37742') in 0.002991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(1ca9216fc82eac94881949d765d39cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(1ca9216fc82eac94881949d765d39cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5447c5a0a83f1ac1c30c2f0c275757a4') in 0.008025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RTS_Scifi_game_assets/Models/Structures/Structure_v1/Source/Structure_v1.tga
+  artifactKey: Guid(b2f746f5f41fb38449c4bf1d23d6698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS_Scifi_game_assets/Models/Structures/Structure_v1/Source/Structure_v1.tga using Guid(b2f746f5f41fb38449c4bf1d23d6698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6708ab16e79e964e3eace94d02bb919') in 0.007705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RTS_Scifi_game_assets/Models/Turrets/Source/Turret_v1_NM.tga
+  artifactKey: Guid(5d1eb3ae5cb59ec47a31095956c1fd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS_Scifi_game_assets/Models/Turrets/Source/Turret_v1_NM.tga using Guid(5d1eb3ae5cb59ec47a31095956c1fd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67399f6840ebfb3052e41dd5589e565a') in 0.010143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Body_2nd.psd
+  artifactKey: Guid(917e15dec99314844ba6bd2180b98f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanSSU_URP-release-1.0.2/UnityChanSSU_URP-release-1.0.2/Assets/UnityChanSSU/Models/UnitychanSSU/Materials/Textures/UCSSU_Body_2nd.psd using Guid(917e15dec99314844ba6bd2180b98f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad1c6bd36e4827430816e86f424a770') in 0.005364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Textures/PBR_Free_NM.png
+  artifactKey: Guid(a5798ba7ff8d7984c9b50981d6dd8e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Textures/PBR_Free_NM.png using Guid(a5798ba7ff8d7984c9b50981d6dd8e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48b4b437f118ea40e45c2ef98d46d1f') in 0.012327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RTS_Scifi_game_assets/Models/Structures/Structure_v1/Source/Structure_v1_red.tga
+  artifactKey: Guid(466b81d41a94a204cb02bf442fad2e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS_Scifi_game_assets/Models/Structures/Structure_v1/Source/Structure_v1_red.tga using Guid(466b81d41a94a204cb02bf442fad2e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe7539e36840fc7966b408d90b74079') in 0.011877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Textures/PBR_Albedo.png
+  artifactKey: Guid(0ca93b28d8c504946904487d0c1d581e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Textures/PBR_Albedo.png using Guid(0ca93b28d8c504946904487d0c1d581e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf75dcb4d08a918e7e6c1861e5ba7ca') in 0.015870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Textures/PolyartEmission.png
+  artifactKey: Guid(61dc11b64d962ee4386737600bf34b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Textures/PolyartEmission.png using Guid(61dc11b64d962ee4386737600bf34b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060a8fc5ba0314b7a2a3e02120bcac26') in 0.002996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RTS_Scifi_game_assets/Models/Structures/Structure_v2/Source/Structure_v2.tga
+  artifactKey: Guid(729e9f32f4bf0a54da4301cd21a13937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS_Scifi_game_assets/Models/Structures/Structure_v2/Source/Structure_v2.tga using Guid(729e9f32f4bf0a54da4301cd21a13937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a6a6c6920f4e9eeeecc86e8c3ff878') in 0.005486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RTS_Scifi_game_assets/Models/Turrets/Source/Turret_v1.tga
+  artifactKey: Guid(8ee0425d9fb3e0d4fb4d1bbeb393dba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS_Scifi_game_assets/Models/Turrets/Source/Turret_v1.tga using Guid(8ee0425d9fb3e0d4fb4d1bbeb393dba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f61bcf3182670f217461772bab93a5') in 0.005935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RTS_Scifi_game_assets/Models/Structures/Structure_v3/Source/Structure_v3_Mask.tga
+  artifactKey: Guid(fbd243261dfdd4c4fb076f3c9070b4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS_Scifi_game_assets/Models/Structures/Structure_v3/Source/Structure_v3_Mask.tga using Guid(fbd243261dfdd4c4fb076f3c9070b4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df320fa1bc7966d3a905c696fe8e048b') in 0.006931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/RTS_Scifi_game_assets/Models/Universal_textures/Tank_track_v1/Tank_track_v1_NM.tga
+  artifactKey: Guid(4ef4623973556984a935ead69509465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS_Scifi_game_assets/Models/Universal_textures/Tank_track_v1/Tank_track_v1_NM.tga using Guid(4ef4623973556984a935ead69509465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c171ae566c97d10ffb21f54656882d') in 0.002294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RTS_Scifi_game_assets/Models/Structures/Structure_v1/Source/Structure_v1_blue.tga
+  artifactKey: Guid(fce441ec3b4321a468b98b14805b585d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS_Scifi_game_assets/Models/Structures/Structure_v1/Source/Structure_v1_blue.tga using Guid(fce441ec3b4321a468b98b14805b585d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2311b2fcbb7a446905c34ca1f22dfb06') in 0.005204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RTS_Scifi_game_assets/Models/Structures/Structure_v1/Source/Structure_v1_green.tga
+  artifactKey: Guid(0fdf0abf9bae8394cb988183a24dfb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS_Scifi_game_assets/Models/Structures/Structure_v1/Source/Structure_v1_green.tga using Guid(0fdf0abf9bae8394cb988183a24dfb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272961fa6f1d0841f4c2c9fbc0f35ebf') in 0.006010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
